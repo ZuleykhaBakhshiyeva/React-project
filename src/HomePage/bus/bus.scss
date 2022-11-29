@@ -1,0 +1,79 @@
+.our-trip{
+    .left-right{
+        display: flex;
+        .left{
+            margin-left: 150px;
+            .container{
+                .title{
+                    font-family: "Balqis";
+                    font-weight: 400;
+                    line-height: 128px;
+                    font-size: 96px;
+                    color: #E2AB3F;
+                    margin:0;
+                }
+                span{
+                    display: block;
+                    text-align: left;
+                    font-style: italic;
+                    font-family: "Roboto";
+                    font-size: 24px;
+                    line-height: 28px;
+                    margin-left: 242px;
+                    margin-top: -30px;
+                    color: #000;
+                }
+            }
+            .text{
+                margin-top: 100px;
+                line-height: 28px; 
+                font-weight: 300; 
+            }
+            button{ 
+                margin-top: 50px;
+                width:280px ; 
+                height:50px ; 
+                font-weight: 300; 
+                font-size: 24px; 
+                line-height: 28px; 
+                text-align: center; 
+                border: 1px solid #E2AB3F; 
+                background-color: #fff; 
+            }
+            button:hover{
+                color:#fff;
+                background-color: #E2AB3F;
+            }
+        }
+        .right{ 
+            margin-top: 70px;
+            margin-left:30px;
+            width: 50%;
+            position: relative;
+            display: flex;
+            overflow: hidden;
+            img{
+                width: 810px;
+            }
+            .button2{
+                position: absolute;
+                background:none;
+                color: white;
+                padding: 0;
+                border: none;
+                cursor: pointer;
+                top: 400px;
+                left: 0;
+            }
+            .button1{
+                position: absolute;
+                background:none;
+                color: white;
+                padding: 0;
+                border: none;
+                cursor: pointer;
+                left: 635px;
+            }
+        }
+    }
+}

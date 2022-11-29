@@ -1,0 +1,53 @@
+.price{
+    margin:200px 0 0 180px;
+    .container{
+        .title{
+            margin:0;
+            font-family: "Balqis";
+            font-weight: 400;
+            line-height: 128px;
+            font-size: 96px;
+            color: #E2AB3F
+        }
+        span{
+            display: block;
+            text-align: left;
+            font-style: italic;
+            font-family: "Roboto";
+            font-size: 24px;
+            line-height: 28px;
+            margin-left: 121px;
+            margin-top: -30px;
+            color: #000;
+        }
+    }
+    .left-right{
+        display: flex; 
+        line-height: 21px; 
+        font-weight: 300;
+        .left{
+            margin-top: 100px;
+        }
+        .right{
+            margin: 100px 0 0 70px;
+        }
+    }
+    .balloon{
+        display: flex;
+        .small-balloon-start{
+            width: 73px;
+            height: 108px;
+            margin-top:152px;
+        }
+        .small-balloon-end{
+            width: 73px;
+            height: 108px;
+            margin-top: 359px;
+        }
+        .big-balloon{
+            justify-content: flex-end;
+            width: 206px;
+            height: 305px;
+        }
+    }
+}

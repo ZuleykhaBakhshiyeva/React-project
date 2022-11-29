@@ -1,0 +1,55 @@
+.hotel {
+    .container { 
+    margin:200px 0 0 180px;
+    .title { 
+        margin:0; 
+        font-family: "Balqis"; 
+        font-weight: 400; 
+        line-height: 128px; 
+        font-size: 96px; 
+        color: #E2AB3F; 
+    }
+    span { 
+        display: block; 
+        text-align: left;  
+        font-family: "Roboto";
+        font-style: italic; 
+        font-weight: 300; 
+        font-size: 24px; 
+        line-height: 28px; 
+        margin-left: 121px; 
+        margin-top: -30px; 
+        color: #000; 
+    }
+  }
+  .left-right{ 
+    display: flex;
+    .left{
+        width: 50%;
+        position: relative; 
+        margin:100px 0 0 180px; 
+    }
+    .right { 
+        width: 50%;
+        margin-top:100px; 
+        .text{  
+            line-height: 21px; 
+            font-weight: 300;
+            margin-left: 0; 
+            p{ 
+                margin-bottom: 20px; 
+            } 
+        } 
+        .galery{ 
+            margin-top:100px;
+            flex-wrap: wrap; 
+            justify-content: space-between;
+            width: 600px; 
+            height: 350px; 
+            a{
+                cursor:zoom-in;
+            }
+        }
+    } 
+  } 
+}

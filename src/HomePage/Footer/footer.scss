@@ -1,0 +1,64 @@
+footer{
+    margin-top:200px;
+    height: 100vh;
+   background-image: url(../../assets/photo/Rectangle42.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    max-width: 1230px;
+    .footer-inner{
+        display: flex;
+        .footer-contacts{
+            margin: 96px 0 0 180px;
+            width: 356px;
+            height: 527px;
+            background-image: url(../../assets/photo/kisspng-flight-hot-air-balloon-computer-icons-aerostat-5afe08ad4b2f92_2.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            .footer-contacts-title{
+                margin-top: 70px;
+                text-align: center;
+                font-family: "Balqis";
+                font-weight: 400;
+                line-height: 115px;
+                font-size: 93px;
+                color: #E2AB3F;
+            }
+            .footer-phone{
+                display: flex;
+                margin:10px 0 0 70px;
+                font-size: 22px;
+                line-height: 21px;
+                p{
+                    margin:5px 0 0 5px;
+                }
+            }
+            .footer-mail{
+                display: flex;
+                margin:10px 0 0 30px;
+                font-size: 22px;
+                line-height: 21px;
+                p{
+                    margin:5px 0 0 5px;
+                }
+            }
+            .footer-social-media{
+                display: flex;
+                margin:35px 0 0 105px;
+                gap:15px;
+                img{
+                    height: 40px;
+                    width: 40px;
+                }
+            }
+        }
+        .footer-title{
+            margin:200px 0 0 100px;
+            font-family: "Balqis";
+            font-weight: 400;
+            line-height: 115px;
+            font-size: 86px;
+        }
+    }
+}
